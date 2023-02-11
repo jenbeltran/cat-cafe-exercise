@@ -1,0 +1,93 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #0A1045;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* CSS for Navbar */
+#navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 0 1rem 0 1rem;
+}
+
+#nav-title {
+    color: #F6BD60;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+}
+
+@media only screen and (min-width:1225px) and (max-width: 1279px) {
+    #navbar-section {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1224px) {
+    #navbar-section {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+/* CSS for about us */
+#about-section {
+    display: flex;
+    padding: 4rem;
+}
+
+#about-text {
+    padding: 4rem;
+    width: 50%;
+}
+
+h1{
+    font-size: 40px;
+    color: #F6BD60;
+}
+
+/* CSS for footer */
+#footer-section {
+    background-color: #90F1EF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+
+#email {
+    font-size: 20px;
+}
+
+#social-icons {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 480px) {
+    #footer-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
